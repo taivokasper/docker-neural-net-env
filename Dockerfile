@@ -17,6 +17,8 @@ RUN pip install msgpack tensorflow
 # Install Keras
 RUN pip install keras
 
+# Install more ML libraries
+RUN pip install scikit-learn
 
 FROM debian
 
